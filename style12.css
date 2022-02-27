@@ -1,0 +1,108 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+	font-family: sans-serif; 
+}
+/*home section*/
+.navbar-brand img{
+   height: 50px;
+}
+.navbar-toggler-icon{
+	background-image: url(images/menu.png);
+	
+}
+#home{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(images/bg2.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	background-attachment: fixed;
+}
+.home-center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.home-center h1{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+}
+.home-center p{
+	color: #fff;
+	font-weight: 500;
+}
+.home-btn .btn-shop{
+	border: 2px solid;
+	color: white;
+	font-size: 20px;
+	padding: 5px 15px;
+}
+.home-btn .btn-shop:hover{
+	color: black;
+	background: white;
+}
+.home-btn .btn-member{
+	border: 2px solid white;
+	color: black;
+	background: white;
+	font-size: 20px;
+	padding: 5px 15px;
+}
+.home-btn .btn-member:hover{
+	color: #ff94b4;
+	background: none;
+}
+/*header section-2*/
+.hoverimg{
+	overflow: hidden;
+}
+.hoverimg img{
+	transition: 0.75s;
+}
+.hoverimg:hover img{
+	transform: scale(0, 1);
+}
+.btn-cart{
+	border: 2px solid black;
+	background: #000;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 15px;
+	border-radius: 5px;
+}
+.btn-cart:hover{
+	text-decoration: none;
+	background: none;
+	color: black;
+	transition: 0.50s;
+}
+.btn-view{
+    padding-left: 10px;
+    border: 2px solid black;
+	background: none;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 15px;
+	border-radius: 5px;
+}
+.btn-view:hover{
+   text-decoration: none;
+	background:#000;
+	color: white;
+	transition: 0.50s;
+}
+/*textmonials*/
+.carousel-inner{
+	text-align: center;
+}
+.carousel-inner .carousel-item img{
+	border-radius: 50%;
+	width: 35%;
+
+}
